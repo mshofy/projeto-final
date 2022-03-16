@@ -1,0 +1,32 @@
+form{
+    font-size: Arial;
+    width: 40%;
+    margin-left: 20px;
+
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+form input, textarea {
+    outline: unset;
+    padding: 20px;
+    min-width: 300px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+form input:focus form textarea:focus{
+    background-color:gold;
+
+}
+form input[type="submit"]{
+    background-color: coral;
+    color: white;
+    cursor: pointer;
+}
+
+form input:hover, form textarea:hover{ background-color: yellow;}
+form textarea::placeholder{
+    font-size: 20px;
+}

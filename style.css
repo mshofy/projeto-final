@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Nunito:wght@600;700;800&display=swap');  
+/* css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{ 
+    text-decoration:none ;
+    color: inherit;
+    font-size: 35px;
+}
+/* Embrulho/Wrapper + flex-box */
+.wrapper{
+    width: 90%;
+    /* largura */
+    max-width: 1800px;
+    /* largura maxima */
+    margin: 0 auto;
+    /* centralizar */
+}
+.flex{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-primeiro{
+    /* estilo botao */
+        font-family: 'Lexend Deca', sans-serif; 
+        color:blue;
+        background-color: #f4a261;
+        padding: 10px 22px;
+        border-radius: 5px;
+        font-size: 40px;
+        display:block;
+        width: fit-content;
+}
+/* COLOCAR HOVER NO BOTAO PRIMEIRO */
+
+#img-logo{
+    width: 250px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+#secao-inicial{
+
+    padding: 32px 0;
+    color:blue;
+    /* pra chamar id=#    background: linear-gradient(90deg,#fff 100%,#fff 0%); */
+}
+#imagem{
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    object-position: bottom;
+    margin-top: 40px;
+}
+#secao-desenho{
+    display: flex;
+    justify-content:space-between;
+}
+/* AJUSTAR O TAMANHO DAS IMAGENS    ==   background-color:antiquewhite; */
+   
+
+h2{
+    margin: 20px 0;
+    color:blue;
+    font-size: 45px;
+}
+/* INSERIR MARGEM INFERIOR E SUPERIOR */
+#secao-botoes{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f4a261;
+    padding: 60px 0;    
+}
+
+#links-secoes> a{
+    margin: 0 20px;
+    }
+    #links-secoes >a:hover{
+        background-color:yellow;
+    }
+/* ESTILO DOS LINKS */
+.btn{
+    /* estilo botao  ==  */
+        font-family: 'Lexend Deca', sans-serif; 
+        color:blue;
+        background-color:rgb(236, 236, 86);
+        padding: 10px 22px;
+        border-radius: 5px;
+        font-size: 40px;
+        display:block;
+        width: fit-content;
+}
+.btn:hover {
+    background-color:rgb(120, 230, 193);}
+/* pra chmar classe (.ponto)opacity: 0.7;} */
+/* estilo seção inicial ==     margin: 2px 2px;FAZER ESTILO LOGO*/
+.link{
+    width: 100%;
+}
+.link > a{
+    display: block;
+    width: 50% ;
+    background-color:#fff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: indigo;
+    font-size: 20px;
+    padding: 15px 0;
+    /*  margem entre cx do site */
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.link > a:hover{
+    background-color:cyan;
+    color:blue;
+}
+/*  VER ESTILO DA IMAGEM   xx  */
+    
+#img-site {
+    background-image: linear-gradient( 45deg, #ffffffb6,#ffffff56), url(./img/pisc5.jpg);
+     background-size:cover;
+      background-repeat: no-repeat;
+      background-position:center;
+}
+#secao-galeria{
+    background-color:bisque;
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+}
+/*  SECTION MOSTRUARIO COM BACGROUND COLOR  =  BISQUE */
+
+.mostruario{
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 90vh;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    color: blue;
+    font-size: 40px;
+}
+
+#escritorios{
+    background-image:  url(./img/escr11.jpg);
+    background-position:center;
+}
+#desenho{
+    background-image:  url(./img/desh.15.png);
+    background-position:center;
+}
+#reformas{
+    background-image:  url(./img/cas12.jpg);
+    background-position:center;
+}
+#interiores{
+    background-image:  url(./img/mdf12.jpg);
+    background-position:center;
+}#interiores{
+    background-image:  url(./img/mdf12.jpg);
+    background-position:center;
+}
+/* VER OS ESTILOS  */
+
+#img-escritorio {
+    width: 30%;
+    height: 90vh;
+}
+#img-deshh {
+    width: 30%;
+    height: 90vh;
+}
+#img-reforma {
+    width: 30%;
+    height: 90vh;
+}
+#img-comercial {
+    width: 30%;
+    height: 90vh;
+}
+
+/* inicio do estilo rodape */
+#link-site{
+    background-color: #f7b6bd;
+    padding: 30px 0;
+    
+    background-image: linear-gradient( 35deg, #ffffff38,#ffffff59), url(./img/pisc3.jpg);
+     background-size:cover;
+      background-repeat: no-repeat;
+      background-position: 0 60%;
+      height: 80vh;
+}
+
+#rodape_simbolos{
+    display: flex;
+    justify-content: center;
+}
+.simbolo{
+    font-size: 30px;
+    color:mediumblue;
+    margin: 0 20px;
+}
+.simbolo:hover{
+    background-color:yellow;
+}
+footer{
+    text-align: center;
+    padding: 15px 0;
+    background-color:yellow;
+    font-size: 25px;
+    color:blue;}
